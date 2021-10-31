@@ -1,0 +1,2 @@
+利用的buffer 将文件的数据读入到channel 到buffer 然后在将buffer中的数据的读取到channel中 再到其他文件中
+
