@@ -29,3 +29,17 @@ build/
 
 ### VS Code ###
 .vscode/
+.idea/*
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+src/main/resources/VSCodeUserSetup-x64-1.61.2.exe
+.idea/libraries/Maven__io_netty_netty_all_4_1_20_Final.xml
+.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_3.xml
+.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_13_3.xml
+.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_13_3.xml
+.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_3_7_RELEASE.xml
+.idea/smartfox_info.xml
+.idea/uiDesigner.xml
+NIO/src/main/resources/VSCodeUserSetup-x64-1.61.2.exe
+target/
