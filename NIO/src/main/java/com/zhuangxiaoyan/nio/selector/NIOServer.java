@@ -41,11 +41,11 @@ public class NIOServer {
             //如果返回的是》0 获取到相关的集合 已经获取到关注的事件。通过selectionkey 反向获取通道
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
 
-            Iterator<SelectionKey> Keyiterator = selectionKeys.iterator();
+            Iterator<SelectionKey> KeyIterator = selectionKeys.iterator();
 
-            while (Keyiterator.hasNext()) {
+            while (KeyIterator.hasNext()) {
                 //获取到selectorkey
-                SelectionKey key = Keyiterator.next();
+                SelectionKey key = KeyIterator.next();
                 if (key.isAcceptable()) {
                     //表示有客户端连接
                     // 生成一个socketChannel
@@ -68,7 +68,7 @@ public class NIOServer {
                 }
 
                 //手动删除集合中移动的selectionKey 防止重复
-                Keyiterator.remove();
+                KeyIterator.remove();
             }
         }
     }
