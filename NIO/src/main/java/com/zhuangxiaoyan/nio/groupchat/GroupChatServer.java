@@ -2,7 +2,6 @@ package com.zhuangxiaoyan.nio.groupchat;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.net.ServerSocket;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.Iterator;
@@ -14,10 +13,10 @@ import java.util.Iterator;
  * @Created by xjl
  */
 public class GroupChatServer {
+    private static final int PORT = 6667;
     //定义属性
     private Selector selector;
     private ServerSocketChannel listenerChannel;
-    private static final int PORT = 6667;
 
     //构造器
     //初始化工作
@@ -36,6 +35,12 @@ public class GroupChatServer {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        //创建一个服务器对象
+        GroupChatServer groupChatServer = new GroupChatServer();
+        groupChatServer.listen();
     }
 
     //监听程序
@@ -96,7 +101,7 @@ public class GroupChatServer {
                 System.out.println("from 客户端：" + msg);
 
                 //向其他的客户端转发消息
-                sendInfoToOtherClients(msg,channel);
+                sendInfoToOtherClients(msg, channel);
             }
         } catch (IOException e) {
             try {
@@ -130,11 +135,5 @@ public class GroupChatServer {
 
         }
 
-    }
-
-    public static void main(String[] args) {
-        //创建一个服务器对象
-        GroupChatServer groupChatServer=new GroupChatServer();
-        groupChatServer.listen();
     }
 }

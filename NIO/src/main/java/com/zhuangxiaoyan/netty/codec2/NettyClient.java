@@ -1,4 +1,4 @@
-package com.zhuangxiaoyan.netty.codec;
+package com.zhuangxiaoyan.netty.codec2;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

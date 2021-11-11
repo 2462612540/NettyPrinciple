@@ -1,4 +1,4 @@
-package com.zhuangxiaoyan.netty.codec;
+package com.zhuangxiaoyan.netty.codec2;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -44,7 +44,7 @@ public class NettyServer {
                             ChannelPipeline pipeline = ch.pipeline();
                             //在pipeline加入ProtoBufDecoder
                             //指定对哪种对象进行解码
-                            pipeline.addLast("decoder", new ProtobufDecoder(StudentPOJO.Student.getDefaultInstance()));
+                            pipeline.addLast("decoder", new ProtobufDecoder(MyDataInfo.MyMessage.getDefaultInstance()));
                             pipeline.addLast(new NettyServerHandler());
                         }
                     }); // 给我们的workerGroup 的 EventLoop 对应的管道设置处理器

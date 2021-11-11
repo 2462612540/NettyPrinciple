@@ -1,4 +1,4 @@
-package com.zhuangxiaoyan.netty.protocoltcp;
+package com.zhuangxiaoyan.netty.inboundhandlerandoutboundhandler;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -7,9 +7,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
- * @Classname TestServer
- * @Description
- * @Date 2021/11/7 14:10
+ * @Classname NettyClinent
+ * @Description TODO
+ * @Date 2021/11/6 17:35
  * @Created by xjl
  */
 public class MyClient {
@@ -20,7 +20,8 @@ public class MyClient {
         try {
 
             Bootstrap bootstrap = new Bootstrap();
-            bootstrap.group(group).channel(NioSocketChannel.class)
+            bootstrap.group(group)
+                    .channel(NioSocketChannel.class)
                     .handler(new MyClientInitializer()); //自定义一个初始化类
 
             ChannelFuture channelFuture = bootstrap.connect("localhost", 7000).sync();

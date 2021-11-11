@@ -3,7 +3,10 @@ package com.zhuangxiaoyan.nio.selector;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.*;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -51,7 +54,7 @@ public class NIOServer {
                     // 生成一个socketChannel
                     SocketChannel socketChannel = serverSocketChannel.accept();
                     System.out.println("客户端连接成功");
-                    System.out.println("客户端生成了一个连接,hash="+serverSocketChannel.hashCode());
+                    System.out.println("客户端生成了一个连接,hash=" + serverSocketChannel.hashCode());
                     //将socketchannel 设置为非阻塞
                     socketChannel.configureBlocking(false);
                     //将这个socketchanel 注册到selector 同时给SocketChannel 关联一个buffer
@@ -62,9 +65,9 @@ public class NIOServer {
                     //发生一个读取的时间 通过key 来反向后去channel
                     SocketChannel socketChannel = (SocketChannel) key.channel();
                     //获取到channel关联的buffer
-                    ByteBuffer byteBuffer = (ByteBuffer)key.attachment();
+                    ByteBuffer byteBuffer = (ByteBuffer) key.attachment();
                     socketChannel.read(byteBuffer);
-                    System.out.println("客户端的数据"+new String(byteBuffer.array()));
+                    System.out.println("客户端的数据" + new String(byteBuffer.array()));
                 }
 
                 //手动删除集合中移动的selectionKey 防止重复

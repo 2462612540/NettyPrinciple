@@ -1,5 +1,7 @@
 package com.zhuangxiaoyan.nio.buffer;
 
+import sun.nio.ch.DirectBuffer;
+
 import javax.swing.*;
 import java.nio.IntBuffer;
 

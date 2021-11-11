@@ -32,8 +32,8 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
         System.out.println("server ctx=" + ctx);
 
         //显示channel和pipline的关系
-        Channel channel=ctx.channel();
-        ChannelPipeline pipeline=ctx.pipeline();//本质是一个双向链表入栈和出栈问题
+        Channel channel = ctx.channel();
+        ChannelPipeline pipeline = ctx.pipeline();//本质是一个双向链表入栈和出栈问题
 
         //将msg 转移到一个bytebuf 与NIO的buffer 是有区别的。
         ByteBuf buf = (ByteBuf) msg;

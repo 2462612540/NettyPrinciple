@@ -15,8 +15,9 @@ import io.netty.channel.socket.nio.NioSocketChannel;
  * @Created by xjl
  */
 public class NettyClinent {
-    private final static int PORT=9000;
+    private final static int PORT = 9000;
     private final static String HOST = "127.0.0.1";
+
     public static void main(String[] args) throws InterruptedException {
         //客户端只需要一个事件循环组
         EventLoopGroup eventExecutors = new NioEventLoopGroup();

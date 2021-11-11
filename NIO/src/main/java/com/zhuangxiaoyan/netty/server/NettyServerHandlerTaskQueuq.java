@@ -29,7 +29,6 @@ public class NettyServerHandlerTaskQueuq extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
 
-
         // 用户自定义定时任务-》该任务是提交到scheduleTeskqueue中
         ctx.channel().eventLoop().schedule(new Runnable() {
             @Override
@@ -37,12 +36,12 @@ public class NettyServerHandlerTaskQueuq extends ChannelInboundHandlerAdapter {
                 try {
                     Thread.sleep(20 * 1000);
                     ctx.writeAndFlush(Unpooled.copiedBuffer("hello 客户端狗狗……", CharsetUtil.UTF_8));
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                     System.out.println("发生异常……");
                 }
             }
-        },5, TimeUnit.SECONDS);
+        }, 5, TimeUnit.SECONDS);
 
         System.out.println("go on……");
     }

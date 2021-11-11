@@ -25,6 +25,6 @@ public class NIOFileChannel5 {
             System.out.println(readOnlyBuffer.get());
         }
         //报错 将不允许写入数据
-        readOnlyBuffer.put((byte)100);
+        readOnlyBuffer.put((byte) 100);
     }
 }

@@ -11,8 +11,7 @@ import java.net.URI;
 
 /**
  * @Classname testhttpServerHandler
- * @Description  SimpleChannelInboundHandler是一个ChannelInboundHandlerAdapter的一个子类
- *
+ * @Description SimpleChannelInboundHandler是一个ChannelInboundHandlerAdapter的一个子类
  * @Date 2021/11/7 14:10
  * @Created by xjl
  */
@@ -28,8 +27,8 @@ public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
         System.out.println("当前ctx的handler=" + ctx.handler());
 
         //判断 msg 是不是 httprequest请求
-        if (msg instanceof HttpRequest){
-            System.out.println("ctx 类型="+ctx.getClass());
+        if (msg instanceof HttpRequest) {
+            System.out.println("ctx 类型=" + ctx.getClass());
 
             //System.out.println("pipeline hashcode" + ctx.pipeline().hashCode() + " TestHttpServerHandler hash=" + this.hashCode());
 
@@ -42,7 +41,7 @@ public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
 
             //获取uri, 过滤指定的资源
             URI uri = new URI(httpRequest.uri());
-            if("/favicon.ico".equals(uri.getPath())) {
+            if ("/favicon.ico".equals(uri.getPath())) {
                 System.out.println("请求了 favicon.ico, 不做响应");
                 return;
             }

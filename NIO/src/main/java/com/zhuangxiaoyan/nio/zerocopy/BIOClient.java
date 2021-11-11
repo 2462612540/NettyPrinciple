@@ -16,7 +16,6 @@ public class BIOClient {
     public static void main(String[] args) throws Exception {
         Socket socket = new Socket("localhost", 7001);
 
-
         String fileName = "D:\\softwaresavfile\\Github\\JAVA_NIO\\NIO\\src\\main\\resources\\VSCodeUserSetup-x64-1.61.2.exe";
         InputStream inputStream = new FileInputStream(fileName);
 

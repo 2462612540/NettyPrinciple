@@ -5,6 +5,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.nio.charset.Charset;
 import java.util.UUID;
+
 /**
  * @Classname TestServer
  * @Description
@@ -41,14 +42,13 @@ public class MyServerHandler extends SimpleChannelInboundHandler<MessageProtocol
 
         String responseContent = UUID.randomUUID().toString();
         int responseLen = responseContent.getBytes("utf-8").length;
-        byte[]  responseContent2 = responseContent.getBytes("utf-8");
+        byte[] responseContent2 = responseContent.getBytes("utf-8");
         //构建一个协议包
         MessageProtocol messageProtocol = new MessageProtocol();
         messageProtocol.setLen(responseLen);
         messageProtocol.setContent(responseContent2);
 
         ctx.writeAndFlush(messageProtocol);
-
 
     }
 }

@@ -5,6 +5,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
 import java.time.LocalDateTime;
+
 /**
  * @Classname NettyClinent
  * @Description TODO
@@ -29,7 +30,6 @@ public class MyTextWebSocketFrameHandler extends SimpleChannelInboundHandler<Tex
         System.out.println("handlerAdded 被调用" + ctx.channel().id().asLongText());
         System.out.println("handlerAdded 被调用" + ctx.channel().id().asShortText());
     }
-
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {

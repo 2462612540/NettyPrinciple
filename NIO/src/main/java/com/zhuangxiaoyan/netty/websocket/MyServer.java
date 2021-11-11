@@ -14,6 +14,7 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
+
 /**
  * @Classname NettyClinent
  * @Description TODO
@@ -21,8 +22,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
  * @Created by xjl
  */
 public class MyServer {
-    public static void main(String[] args) throws Exception{
-
+    public static void main(String[] args) throws Exception {
 
         //创建两个线程组
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
@@ -70,7 +70,7 @@ public class MyServer {
             ChannelFuture channelFuture = serverBootstrap.bind(7000).sync();
             channelFuture.channel().closeFuture().sync();
 
-        }finally {
+        } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
         }
