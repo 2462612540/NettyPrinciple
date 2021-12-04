@@ -18,14 +18,8 @@
 -----------------------------------------------------------------------------------------------
 ## Netty Xmind
 
-- 深入理解Java虚拟机：Netty高级特性与最佳实践（第3版）周志明.pdf
-- Java虚拟机（ 内存结构）.pdf
-- Java虚拟机（垃圾收集器和算法）.pdf
-- Netty 和性能调优.xmind
-- Netty面试反馈.pdf
-- Netty面试思考准备.pdf
-- 锁的原理一10.25.pdf
-- java虚拟机思维导图.png
+- ************
+
 
 ## Netty Basic Principle
 
@@ -33,10 +27,10 @@
 - 2.BIO的相关原理
 - 3.NIO的相关原理
 
-## Netty Source Code Analysis
+## Netty Code Analysis
 
 
-## Netty Optimization Analysis
+## PRC project
 
 
 ## Netty Interview Questions
