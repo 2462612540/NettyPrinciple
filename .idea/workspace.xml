@@ -1,19 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="228627a3-93e0-4b88-bdd0-37cbd0874339" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/bio/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/buffer/BasicBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/selector/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/selector/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIO/src/main/resources/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/buf/NettyByteBufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/client/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/client/NettyClinent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec/StudentPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/MyDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/codec2/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/groupchat/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/heartbeat/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/http/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/http/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/http/TestServerinitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyByteToLongDecoder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/server/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/server/NettyServerHandlerTaskQueuq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/sourcecode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/websocket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/netty/websocket/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/NioApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/bio/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/buffer/BasicBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/selector/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/selector/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/zerocopy/BIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/zerocopy/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/zerocopy/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/com/zhuangxiaoyan/nio/zerocopy/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/new copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/resources/微信图片_20210422220149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/test/java/com/zhuangxiaoyan/nio/NioApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/buf/NettyByteBufTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/client/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/client/NettyClinent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/NettyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/Student.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec/StudentPOJO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/MyDataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/NettyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/codec2/Student.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/groupchat/GroupChatServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/groupchat/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/heartbeat/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/heartbeat/MyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/heartbeat/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/http/TestHttpServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/http/TestServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/http/TestServerinitalizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyByteToLongDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyByteToLongDecoder2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyClientInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyLongToByteEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/inboundhandlerandoutboundhandler/MyServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MessageProtocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyClientInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyMessageDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyMessageEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/protocoltcp/MyServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/server/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/server/NettyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/server/NettyServerHandlerTaskQueuq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/sourcecode/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyClientInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/tcp/MyServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/websocket/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/websocket/MyTextWebSocketFrameHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/netty/websocket/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/NioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/bio/BIOServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/buffer/BasicBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/channel/NIOFileChannel7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/groupchat/GroupChatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/groupchat/GroupChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/selector/NIOClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/selector/NIOServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/zerocopy/BIOClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/zerocopy/BIOServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/zerocopy/NIOClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/java/com/zhuangxiaoyan/nio/zerocopy/NIOServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/new copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/main/resources/微信图片_20210422220149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIO/src/test/java/com/zhuangxiaoyan/nio/NioApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +264,17 @@
   <component name="ProjectId" id="205hTQ90uj9HEQuj9DF7gRZhudA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NIO/src/main/resources" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.AccountConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +285,7 @@
   <component name="RunManager" selected="Application.NIOClient">
     <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangxiaoyan.nio.selector.NIOClient" />
-      <module name="NIO" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangxiaoyan.nio.selector.*" />
@@ -83,7 +298,7 @@
     </configuration>
     <configuration name="NIOFileChannel4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangxiaoyan.nio.channel.NIOFileChannel4" />
-      <module name="NIO" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangxiaoyan.nio.channel.*" />
@@ -96,7 +311,7 @@
     </configuration>
     <configuration name="NIOFileChannel5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangxiaoyan.nio.channel.NIOFileChannel5" />
-      <module name="NIO" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangxiaoyan.nio.channel.*" />
@@ -109,7 +324,7 @@
     </configuration>
     <configuration name="NIOFileChannel6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangxiaoyan.nio.channel.NIOFileChannel6" />
-      <module name="NIO" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangxiaoyan.nio.channel.*" />
@@ -122,7 +337,7 @@
     </configuration>
     <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangxiaoyan.nio.selector.NIOServer" />
-      <module name="NIO" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangxiaoyan.nio.selector.*" />
@@ -134,7 +349,7 @@
       </method>
     </configuration>
     <configuration name="NioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="NIO" />
+      <module name="Netty" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuangxiaoyan.nio.NioApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,6 +365,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,11 +378,12 @@
       <updated>1635340362649</updated>
       <workItem from="1635340364627" duration="4108000" />
       <workItem from="1635429296467" duration="15027000" />
+      <workItem from="1638577106675" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2542" y="544" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1635604478885">
